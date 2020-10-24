@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'CaptainMarvel';
+    src: url('../font/CaptainMarvel.otf');
+    font-style: normal;
+}
+
+body {
+  position: relative;
+}
+
+.jumbotron{
+	font-family: 'CaptainMarvel';
+	/*background-image: fixed;
+	background-size: 100%;*/
+	background-position: center;
+	color: white;
+	background-image: url("../image/Marvel_banniere3.jpg");
+	background-size: cover;
+    margin-bottom: 0;
+    border-radius: 0rem;
+}
+
+#titrePr{
+	text-shadow: 0px 0px 15px black;
+	margin-top: 100px;
+	font-family: 'CaptainMarvel';
+}
+
+#textePr{
+	text-shadow: 0px 0px 2px black;
+	margin-bottom: 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+    text-shadow: 0px 0px 1px white;
+}
+
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar-dark .navbar-toggler:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+
+.border {
+    border: 3px solid #FFE4E4!important;
+}
+
+.border:hover {
+    border: 3px solid white!important;
+    box-shadow: 0px 0px 5px white;
+}
+
+.font{
+	color: white;
+}
+
+.bandeN{
+ 	height: 150px;
+ 	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+
+.imgFilm{
+  height: 300px;
+  width: 200px;
+}
+
+.nomFilm{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'CaptainMarvel';
+}
+
+#filmsAVenir{
+  background: #870004;
+}
+
+#t1{
+	color: white;
+	text-shadow: 2px 2px black;
+	font-family: 'CaptainMarvel';
+}
+
+#p1{
+	color: white;
+}
+
+.imgPerso{
+	height: 300px;
+	width: 200px;
+}
+
+.nomPerso{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'CaptainMarvel';
+}
+
+.shop{
+	background: #870004;
+	
+}
+
+.active{
+	border-bottom: 2px solid white;
+	text-shadow: 0px 0px 1px white;
+}
+
+nav{
+	background-color: #870004;
+	font-family: 'CaptainMarvel';
+}
+
+.ajust1{
+	margin-top: 150px
+}
+
+.ajust2{
+	margin-bottom: 150px
+}
+
+.ajust3{
+	margin-top: 120px
+}
+
+.btnShop{
+	background-color: white;
+	opacity: 0.95;
+}
+
+.btnShop:hover{
+	opacity: 1;
+	box-shadow: 0px 0px 10px white;
+}
+
+.btn-dark:hover{
+	box-shadow: 0px 0px 10px black;
+}
+
+h2{
+	font-family: 'CaptainMarvel';
+}
